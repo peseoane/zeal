@@ -1,75 +1,49 @@
-# Zeal
+# Foxtrot Zeal Docs
+## Español / Spanish
 
-[![Changelog](https://img.shields.io/github/release/zealdocs/zeal.svg?style=flat-square)](https://github.com/zealdocs/zeal/releases)
-[![Gitter](https://img.shields.io/gitter/room/zealdocs/zeal.svg?style=flat-square)](https://gitter.im/zealdocs/zeal)
-[![IRC](https://img.shields.io/badge/chat-on%20irc-blue.svg?style=flat-square)](https://web.libera.chat/#zealdocs)
-[![Telegram Channel](https://img.shields.io/badge/follow-on%20telegram-179cde.svg?style=flat-square)](https://telegram.me/zealdocs)
-[![Twitter](https://img.shields.io/badge/follow-on%20twitter-1da1f2.svg?style=flat-square)](https://twitter.com/zealdocs)
+> Este simple fork soluciona unos bugs del Zeal Docs original que impedían en determinados Docsets hacer búsquedas dado que el programa se cerraba.
 
-[![Build Check](https://img.shields.io/github/workflow/status/zealdocs/zeal/Build%20Check?style=flat-square)](https://github.com/zealdocs/zeal/actions/workflows/build-check.yml)
-[![Coverity Scan](https://img.shields.io/coverity/scan/4271.svg?style=flat-square)](https://scan.coverity.com/projects/4271)
+**Versión release - No incluye símbolos de depuración**
+> IMPORTANTE > Requiere Microsoft Visual C++ 2022, más abajo está la descarga, es recomendable bajar el fichero con instalador, lo hace automáticamente
 
-Zeal is a simple offline documentation browser inspired by [Dash](https://kapeli.com/dash).
+<img width="540" alt="ICON" src="https://user-images.githubusercontent.com/47398995/212192958-0e41ce53-1cea-4a48-b5e4-c5c416ff6010.png">
 
-![Screenshot](https://i.imgur.com/qBkZduS.png)
+### Fallos solucionados: 
+- WebEngineSocket al generar una búsqueda bajo nuevos DOCSETS, hace un HALT general al programa. 
+- Se cierra al hacer el query y no es usable con APIs modernas. https://github.com/zealdocs/zeal/issues/1339 - Solucionados problemas de escalado en pantallas HIDPI. 
+- Mejorado rendimiento (1000 veces en consultas simples sin lógica booleana).
 
-## Download
+**¡Se puede buscar en la API de Java 18 sin que se cuelge!**
+![image](https://user-images.githubusercontent.com/47398995/212193018-98681acf-efa3-4396-acd8-c63fb5c0f295.png)
 
-Get binary builds for Windows and Linux from the [download page](https://zealdocs.org/download.html).
 
-## How to use
+### Changelog: 
+- Se ha migrado todo el código para ser compatible con x86_64. 
+- Se ha migrado al Win10 SDK 10.0.22621 
+- Se ha migrado a SQLite x64. 
+- Se ha portado de Qt5 a Qt6. 
+- Obsoleto qmake, se ha portado todo a cmake. 
 
-After installing Zeal go to `Tools->Docsets`, select the ones you want, and click the `Download` button.
+## English UK
 
-## How to compile
+> This fork fixes some bugs in the original Zeal Docs that prevented certain Docsets from searching because the program would crash.
 
-### Build dependencies
+Release version - Does not include debug symbols
 
--   [CMake](https://cmake.org/).
--   [Qt](https://www.qt.io/) version 5.9.5 or above. Required module: Qt WebEngine Widgets.
--   [libarchive](https://libarchive.org/).
--   [SQLite](https://sqlite.org/).
--   X11 platforms only: Qt X11 Extras and `xcb-util-keysyms`.
+IMPORTANT > Requires Microsoft Visual C++ 2022, below is the download, it is recommended to download the file with installer, it does it automatically.
 
-### Build instructions
+### Fixed bugs:
 
-```sh
-cmake -B build
-cmake --build build
-```
+WebEngineSocket when generating a search under new DOCSETS, makes a general HALT to the program.
+Closes on query and is not usable with modern APIs. zealdocs#1339 
+- Fixed scaling issues on HIDPI screens. 
+- Improved performance (1000x on simple queries without boolean logic).
+- Java 18 API can be searched without crashing!
 
-More detailed instructions are available in the [wiki](https://github.com/zealdocs/zeal/wiki).
+Changelog:
 
-## Query & Filter docsets
-
-You can limit the search scope by using ':' to indicate the desired docsets:
-
-`java:BaseDAO`
-
-You can also search multiple docsets separating them with a comma:
-
-`python,django:string`
-
-## Command line
-
-If you prefer, you can start Zeal with a query from the command line:
-
-`zeal python:pprint`
-
-## Create your own docsets
-
-Follow instructions in the [Dash docset generation guide](https://kapeli.com/docsets).
-
-## Contact and Support
-
-We want your feedback! Here's a list of different ways to contact developers and request help:
-
--   Report bugs and submit feature requests to [GitHub issues](https://github.com/zealdocs/zeal/issues).
--   Reach developers and other Zeal users on [Gitter](https://gitter.im/zealdocs/zeal) or `#zealdocs` IRC channel on [Libera Chat](https://libera.chat) ([web client](https://web.libera.chat/#zealdocs)).
--   Ask any questions in our [GitHub Discussions](https://github.com/zealdocs/zeal/discussions).
--   Do not forget to follow [@zealdocs](https://twitter.com/zealdocs) on Twitter!
--   Finally, for private communication shoot an email to zeal@zealdocs.org.
-
-## License
-
-This software is licensed under the terms of the GNU General Public License version 3 (GPLv3). Full text of the license is available in the [COPYING](https://github.com/zealdocs/zeal/blob/master/COPYING) file and [online](https://www.gnu.org/licenses/gpl-3.0.html).
+Migrated all code to be x86_64 compatible.
+Migrated to Win10 SDK 10.0.22621.
+Migrated to SQLite x64.
+Ported from Qt5 to Qt6.
+Obsolete qmake, everything has been ported to cmake.

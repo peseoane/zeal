@@ -19,28 +19,28 @@ jobs:
               os: ubuntu-20.04,
               qt_packages: "libqt5x11extras5-dev qt5-default qtwebengine5-dev",
               configurePreset: "ninja-multi",
-              buildPreset: "ninja-multi-release"
+              buildPreset: "ninja-multi-release",
             }
           - {
               name: "Ubuntu 20.04 / Qt 5 / Portable",
               os: ubuntu-20.04,
               qt_packages: "libqt5x11extras5-dev qt5-default qtwebengine5-dev",
               configurePreset: "ninja-multi-portable",
-              buildPreset: "ninja-multi-portable-release"
+              buildPreset: "ninja-multi-portable-release",
             }
           - {
               name: "Ubuntu 22.04 / Qt 6",
               os: ubuntu-22.04,
               qt_packages: "libgl1-mesa-dev libqt6opengl6-dev qt6-base-private-dev qt6-webengine-dev qt6-webengine-dev-tools",
               configurePreset: "ninja-multi",
-              buildPreset: "ninja-multi-release"
+              buildPreset: "ninja-multi-release",
             }
           - {
               name: "Ubuntu 22.04 / Qt 6 / Portable",
               os: ubuntu-22.04,
               qt_packages: "libgl1-mesa-dev libqt6opengl6-dev qt6-base-private-dev qt6-webengine-dev qt6-webengine-dev-tools",
               configurePreset: "ninja-multi-portable",
-              buildPreset: "ninja-multi-portable-release"
+              buildPreset: "ninja-multi-portable-release",
             }
 
     steps:
@@ -80,7 +80,7 @@ jobs:
               qt_modules: "qtwebengine",
               qt_version: "5.15.2",
               configurePreset: "ninja-multi-vcpkg",
-              buildPreset: "ninja-multi-vcpkg-release"
+              buildPreset: "ninja-multi-vcpkg-release",
             }
           - {
               name: "Windows Server 2019 / Qt 5 / Portable",
@@ -88,7 +88,7 @@ jobs:
               qt_modules: "qtwebengine",
               qt_version: "5.15.2",
               configurePreset: ninja-multi-vcpkg-portable,
-              buildPreset: ninja-multi-vcpkg-portable-release
+              buildPreset: ninja-multi-vcpkg-portable-release,
             }
           - {
               name: "Windows Server 2022 / Qt 6",
@@ -96,7 +96,7 @@ jobs:
               qt_modules: "qtwebengine qtwebchannel qtpositioning",
               qt_version: "6.4.0",
               configurePreset: ninja-multi-vcpkg,
-              buildPreset: ninja-multi-vcpkg-release
+              buildPreset: ninja-multi-vcpkg-release,
             }
           - {
               name: "Windows Server 2022 / Qt 6 / Portable",
@@ -104,7 +104,7 @@ jobs:
               qt_modules: "qtwebengine qtwebchannel qtpositioning",
               qt_version: "6.4.0",
               configurePreset: ninja-multi-vcpkg-portable,
-              buildPreset: ninja-multi-vcpkg-portable-release
+              buildPreset: ninja-multi-vcpkg-portable-release,
             }
 
     env:

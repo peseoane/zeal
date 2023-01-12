@@ -7,7 +7,7 @@ on:
     # The branches below must be a subset of the branches above.
     branches: [master]
   schedule:
-  - cron: '0 8 * * 6'
+    - cron: "0 8 * * 6"
 
 jobs:
   analyze-codeql:
@@ -15,32 +15,32 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@v2
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
 
-    - name: Install Dependencies
-      run: |
-        sudo apt-get -y -qq update
-        sudo apt-get -y -qq --no-install-recommends install \
-          cmake \
-          extra-cmake-modules \
-          libarchive-dev \
-          libqt5x11extras5-dev \
-          libsqlite3-dev \
-          libxcb-keysyms1-dev \
-          ninja-build \
-          qt5-default \
-          qtwebengine5-dev
+      - name: Install Dependencies
+        run: |
+          sudo apt-get -y -qq update
+          sudo apt-get -y -qq --no-install-recommends install \
+            cmake \
+            extra-cmake-modules \
+            libarchive-dev \
+            libqt5x11extras5-dev \
+            libsqlite3-dev \
+            libxcb-keysyms1-dev \
+            ninja-build \
+            qt5-default \
+            qtwebengine5-dev
 
-    - name: Configure & Build
-      uses: lukka/run-cmake@v3
-      with:
-        buildDirectory: ${{ runner.workspace }}/build/
+      - name: Configure & Build
+        uses: lukka/run-cmake@v3
+        with:
+          buildDirectory: ${{ runner.workspace }}/build/
 
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v2
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v2

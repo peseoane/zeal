@@ -19,10 +19,7 @@
     },
     {
       "name": "ninja-multi-portable",
-      "inherits": [
-        "ninja-multi",
-        "config-portable"
-      ]
+      "inherits": ["ninja-multi", "config-portable"]
     },
     {
       "name": "ninja-multi-vcpkg",
@@ -31,9 +28,7 @@
         "lhs": "${hostSystemName}",
         "rhs": "Windows"
       },
-      "inherits": [
-        "ninja-multi"
-      ],
+      "inherits": ["ninja-multi"],
       "cacheVariables": {
         "CMAKE_TOOLCHAIN_FILE": {
           "type": "FILEPATH",
@@ -43,10 +38,7 @@
     },
     {
       "name": "ninja-multi-vcpkg-portable",
-      "inherits": [
-        "ninja-multi-vcpkg",
-        "config-portable"
-      ]
+      "inherits": ["ninja-multi-vcpkg", "config-portable"]
     },
     {
       "name": "config-portable",

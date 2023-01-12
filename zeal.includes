@@ -1,0 +1,10 @@
+src/libs/browser
+src/libs/core
+src/libs/registry
+src/libs/sidebar
+src/libs/ui
+src/libs/ui/qxtglobalshortcut
+src/libs/ui/Ui_autogen/include_Debug
+src/libs/ui/Ui_autogen/include_MinSizeRel
+src/libs/ui/widgets
+src/libs/util

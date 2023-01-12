@@ -14,5 +14,5 @@ optipng *.png
 
 The following icons are renamed:
 
-* `Enum` to `Enumeration`
-* `Struct` to `Structure`
+-   `Enum` to `Enumeration`
+-   `Struct` to `Structure`

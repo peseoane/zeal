@@ -172,13 +172,13 @@ MainWindow::MainWindow(Core::Application *app, QWidget *parent)
         qApp->setQuitOnLastWindowClosed(false);
         const int ret
                 = QMessageBox::information(this, QStringLiteral("Zeal"),
-                                           tr("Zeal <b>%1</b> is available. Open download page?").arg(version),
+                                           tr("Comprueba en mi repositorio si hay alguna actualización... si te apetece vamos tampoco pasa nada").arg(version),
                                            QMessageBox::Yes | QMessageBox::No,
                                            QMessageBox::Yes);
         qApp->setQuitOnLastWindowClosed(true);
 
         if (ret == QMessageBox::Yes) {
-            QDesktopServices::openUrl(QUrl(QStringLiteral("https://zealdocs.org/download.html")));
+            QDesktopServices::openUrl(QUrl(QStringLiteral("https://github.com/peseoane/zeal")));
         }
     });
 

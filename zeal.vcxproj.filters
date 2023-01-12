@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\zeal\src\app\App_autogen\EWIEGA46WW\qrc_zeal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\app\App_autogen\include_Debug\EWIEGA46WW\qrc_zeal_CMAKE_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\app\App_autogen\include_MinSizeRel\EWIEGA46WW\qrc_zeal_CMAKE_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\app\App_autogen\include_RelWithDebInfo\EWIEGA46WW\qrc_zeal_CMAKE_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\app\App_autogen\include_Release\EWIEGA46WW\qrc_zeal_CMAKE_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\app\App_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\app\App_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\app\App_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\app\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Debug\EWIEGA46WW\moc_searchtoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Debug\EWIEGA46WW\moc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Debug\EWIEGA46WW\moc_urlrequestinterceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Debug\EWIEGA46WW\moc_webbridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Debug\EWIEGA46WW\moc_webcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Debug\EWIEGA46WW\moc_webpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Debug\EWIEGA46WW\moc_webview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_MinSizeRel\EWIEGA46WW\moc_searchtoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_MinSizeRel\EWIEGA46WW\moc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_MinSizeRel\EWIEGA46WW\moc_urlrequestinterceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_MinSizeRel\EWIEGA46WW\moc_webbridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_MinSizeRel\EWIEGA46WW\moc_webcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_MinSizeRel\EWIEGA46WW\moc_webpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_MinSizeRel\EWIEGA46WW\moc_webview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Release\EWIEGA46WW\moc_searchtoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Release\EWIEGA46WW\moc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Release\EWIEGA46WW\moc_urlrequestinterceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Release\EWIEGA46WW\moc_webbridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Release\EWIEGA46WW\moc_webcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Release\EWIEGA46WW\moc_webpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\include_Release\EWIEGA46WW\moc_webview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\Browser_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\searchtoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\urlrequestinterceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\webbridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\webcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\webpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\browser\webview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Debug\EWIEGA46WW\moc_application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Debug\EWIEGA46WW\moc_applicationsingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Debug\EWIEGA46WW\moc_extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Debug\EWIEGA46WW\moc_filemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Debug\EWIEGA46WW\moc_httpserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Debug\EWIEGA46WW\moc_networkaccessmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Debug\EWIEGA46WW\moc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_MinSizeRel\EWIEGA46WW\moc_application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_MinSizeRel\EWIEGA46WW\moc_applicationsingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_MinSizeRel\EWIEGA46WW\moc_extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_MinSizeRel\EWIEGA46WW\moc_filemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_MinSizeRel\EWIEGA46WW\moc_httpserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_MinSizeRel\EWIEGA46WW\moc_networkaccessmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_MinSizeRel\EWIEGA46WW\moc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Release\EWIEGA46WW\moc_application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Release\EWIEGA46WW\moc_applicationsingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Release\EWIEGA46WW\moc_extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Release\EWIEGA46WW\moc_filemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Release\EWIEGA46WW\moc_httpserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Release\EWIEGA46WW\moc_networkaccessmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\include_Release\EWIEGA46WW\moc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\Core_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\applicationsingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\filemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\httpserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\networkaccessmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\core\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\include_Debug\EWIEGA46WW\moc_docsetregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\include_Debug\EWIEGA46WW\moc_listmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\include_Debug\EWIEGA46WW\moc_searchmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\include_MinSizeRel\EWIEGA46WW\moc_docsetregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\include_MinSizeRel\EWIEGA46WW\moc_listmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\include_MinSizeRel\EWIEGA46WW\moc_searchmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\include_Release\EWIEGA46WW\moc_docsetregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\include_Release\EWIEGA46WW\moc_listmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\include_Release\EWIEGA46WW\moc_searchmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\Registry_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\docset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\docsetmetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\docsetregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\listmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\searchmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\registry\searchquery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_Debug\EWIEGA46WW\moc_container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_Debug\EWIEGA46WW\moc_proxyview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_Debug\EWIEGA46WW\moc_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_Debug\EWIEGA46WW\moc_viewprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_MinSizeRel\EWIEGA46WW\moc_container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_MinSizeRel\EWIEGA46WW\moc_proxyview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_MinSizeRel\EWIEGA46WW\moc_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_MinSizeRel\EWIEGA46WW\moc_viewprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_Release\EWIEGA46WW\moc_container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_Release\EWIEGA46WW\moc_proxyview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_Release\EWIEGA46WW\moc_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\include_Release\EWIEGA46WW\moc_viewprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\Sidebar_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\proxyview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\sidebar\viewprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Debug\EWIEGA46WW\moc_aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Debug\EWIEGA46WW\moc_browsertab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Debug\EWIEGA46WW\moc_docsetlistitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Debug\EWIEGA46WW\moc_docsetsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Debug\EWIEGA46WW\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Debug\EWIEGA46WW\moc_searchitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Debug\EWIEGA46WW\moc_searchsidebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Debug\EWIEGA46WW\moc_settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Debug\EWIEGA46WW\moc_sidebarviewprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_MinSizeRel\EWIEGA46WW\moc_aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_MinSizeRel\EWIEGA46WW\moc_browsertab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_MinSizeRel\EWIEGA46WW\moc_docsetlistitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_MinSizeRel\EWIEGA46WW\moc_docsetsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_MinSizeRel\EWIEGA46WW\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_MinSizeRel\EWIEGA46WW\moc_searchitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_MinSizeRel\EWIEGA46WW\moc_searchsidebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_MinSizeRel\EWIEGA46WW\moc_settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_MinSizeRel\EWIEGA46WW\moc_sidebarviewprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Release\EWIEGA46WW\moc_aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Release\EWIEGA46WW\moc_browsertab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Release\EWIEGA46WW\moc_docsetlistitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Release\EWIEGA46WW\moc_docsetsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Release\EWIEGA46WW\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Release\EWIEGA46WW\moc_searchitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Release\EWIEGA46WW\moc_searchsidebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Release\EWIEGA46WW\moc_settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\include_Release\EWIEGA46WW\moc_sidebarviewprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\Ui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\browsertab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\docsetlistitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\docsetsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\QxtGlobalShortcut_autogen\include_Debug\EWIEGA46WW\moc_qxtglobalshortcut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\QxtGlobalShortcut_autogen\include_MinSizeRel\EWIEGA46WW\moc_qxtglobalshortcut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\QxtGlobalShortcut_autogen\include_Release\EWIEGA46WW\moc_qxtglobalshortcut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\QxtGlobalShortcut_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\QxtGlobalShortcut_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\QxtGlobalShortcut_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\qxtglobalshortcut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\qxtglobalshortcut_mac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\qxtglobalshortcut_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\qxtglobalshortcut\qxtglobalshortcut_x11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\searchitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\searchsidebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\sidebarviewprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\include_Debug\EWIEGA46WW\moc_searchedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\include_Debug\EWIEGA46WW\moc_shortcutedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\include_Debug\EWIEGA46WW\moc_toolbarframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\include_MinSizeRel\EWIEGA46WW\moc_searchedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\include_MinSizeRel\EWIEGA46WW\moc_shortcutedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\include_MinSizeRel\EWIEGA46WW\moc_toolbarframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\include_Release\EWIEGA46WW\moc_searchedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\include_Release\EWIEGA46WW\moc_shortcutedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\include_Release\EWIEGA46WW\moc_toolbarframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\Widgets_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\layouthelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\searchedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\shortcutedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\ui\widgets\toolbarframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\util\plist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\zeal\src\libs\util\sqlitedatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\zeal\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{73E1230F-3592-3FA4-ADCD-9CA28113E8E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+# C++ objects and libs
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Qt Creator
+*.autosave
+
+# Qt Ctreator QML
+*.qmlproject.user
+*.qmlproject.user.*
+
+# CMake
+CMakeLists.txt.user
+build/
+build.*/
+
+# AppImage Builder
+*.AppImage
+*.AppImage.zsync
+appimage-builder-cache/
+squashfs-root/
+
+# WiX Toolset
+*.msi
+*.wixobj
+*.wixpdb
+
+# VS Code
+.vscode/
+
+# Linux appdata
+/assets/freedesktop/org.zealdocs.zeal.appdata.xml

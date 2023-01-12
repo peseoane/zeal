@@ -1,0 +1,1 @@
+C:\git\zeal\src\app\App.dir\MinSizeRel\App.vcxproj.CopyComplete

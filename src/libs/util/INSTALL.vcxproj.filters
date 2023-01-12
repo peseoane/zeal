@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git\zeal\CMakeFiles\4311456d368f95990f229e4c0f238063\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4D67D5B6-1F0C-3A22-91B8-90CFBE0ECEF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

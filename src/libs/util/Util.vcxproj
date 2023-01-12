@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{923AEDDD-1FFD-3F89-A148-7185A8F00471}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Util</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\zeal\src\libs\util\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Util.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Util</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\zeal\src\libs\util\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Util.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Util</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\zeal\src\libs\util\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Util.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Util</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\zeal\src\libs\util\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Util.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Util</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_Debug;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Qt/6.4.2/msvc2019_64/include/QtCore" /external:I "C:/Qt/6.4.2/msvc2019_64/include" /external:I "C:/Qt/6.4.2/msvc2019_64/mkspecs/win32-msvc" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ZEAL_VERSION="Foxtrot-Zeal V1R";QT_USE_QSTRINGBUILDER;QT_RESTRICTED_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_NO_URL_CAST_FROM_STRING;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ZEAL_VERSION=\"Foxtrot-Zeal V1R\";QT_USE_QSTRINGBUILDER;QT_RESTRICTED_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_NO_URL_CAST_FROM_STRING;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_Debug;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;C:\Qt\6.4.2\msvc2019_64\include\QtCore;C:\Qt\6.4.2\msvc2019_64\include;C:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_Debug;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;C:\Qt\6.4.2\msvc2019_64\include\QtCore;C:\Qt\6.4.2\msvc2019_64\include;C:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target Util</Message>
+      <Command>setlocal
+cd C:\git\zeal\src\libs\util
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/git/zeal/src/libs/util/CMakeFiles/Util_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_Release;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Qt/6.4.2/msvc2019_64/include/QtCore" /external:I "C:/Qt/6.4.2/msvc2019_64/include" /external:I "C:/Qt/6.4.2/msvc2019_64/mkspecs/win32-msvc" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZEAL_VERSION="Foxtrot-Zeal V1R";QT_USE_QSTRINGBUILDER;QT_RESTRICTED_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_NO_URL_CAST_FROM_STRING;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZEAL_VERSION=\"Foxtrot-Zeal V1R\";QT_USE_QSTRINGBUILDER;QT_RESTRICTED_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_NO_URL_CAST_FROM_STRING;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_Release;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;C:\Qt\6.4.2\msvc2019_64\include\QtCore;C:\Qt\6.4.2\msvc2019_64\include;C:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_Release;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;C:\Qt\6.4.2\msvc2019_64\include\QtCore;C:\Qt\6.4.2\msvc2019_64\include;C:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target Util</Message>
+      <Command>setlocal
+cd C:\git\zeal\src\libs\util
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/git/zeal/src/libs/util/CMakeFiles/Util_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_MinSizeRel;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Qt/6.4.2/msvc2019_64/include/QtCore" /external:I "C:/Qt/6.4.2/msvc2019_64/include" /external:I "C:/Qt/6.4.2/msvc2019_64/mkspecs/win32-msvc" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZEAL_VERSION="Foxtrot-Zeal V1R";QT_USE_QSTRINGBUILDER;QT_RESTRICTED_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_NO_URL_CAST_FROM_STRING;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZEAL_VERSION=\"Foxtrot-Zeal V1R\";QT_USE_QSTRINGBUILDER;QT_RESTRICTED_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_NO_URL_CAST_FROM_STRING;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_MinSizeRel;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;C:\Qt\6.4.2\msvc2019_64\include\QtCore;C:\Qt\6.4.2\msvc2019_64\include;C:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_MinSizeRel;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;C:\Qt\6.4.2\msvc2019_64\include\QtCore;C:\Qt\6.4.2\msvc2019_64\include;C:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target Util</Message>
+      <Command>setlocal
+cd C:\git\zeal\src\libs\util
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/git/zeal/src/libs/util/CMakeFiles/Util_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_RelWithDebInfo;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Qt/6.4.2/msvc2019_64/include/QtCore" /external:I "C:/Qt/6.4.2/msvc2019_64/include" /external:I "C:/Qt/6.4.2/msvc2019_64/mkspecs/win32-msvc" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZEAL_VERSION="Foxtrot-Zeal V1R";QT_USE_QSTRINGBUILDER;QT_RESTRICTED_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_NO_URL_CAST_FROM_STRING;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZEAL_VERSION=\"Foxtrot-Zeal V1R\";QT_USE_QSTRINGBUILDER;QT_RESTRICTED_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_NO_URL_CAST_FROM_STRING;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_RelWithDebInfo;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;C:\Qt\6.4.2\msvc2019_64\include\QtCore;C:\Qt\6.4.2\msvc2019_64\include;C:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git\zeal\src\libs\util;C:\git\zeal\src\libs\util\Util_autogen\include_RelWithDebInfo;C:\git\zeal\src\libs;C:\vcpkg\installed\x64-windows\include;C:\Qt\6.4.2\msvc2019_64\include\QtCore;C:\Qt\6.4.2\msvc2019_64\include;C:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target Util</Message>
+      <Command>setlocal
+cd C:\git\zeal\src\libs\util
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/git/zeal/src/libs/util/CMakeFiles/Util_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\zeal\src\libs\util\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/zeal/src/libs/util/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/git/zeal -BC:/git/zeal --check-stamp-file C:/git/zeal/src/libs/util/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\FindWrapAtomic.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets-debug.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-debug.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessTargets.cmake;C:\git\zeal\cmake\FindSQLite.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\zeal\src\libs\util\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/zeal/src/libs/util/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/git/zeal -BC:/git/zeal --check-stamp-file C:/git/zeal/src/libs/util/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\FindWrapAtomic.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets-debug.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-debug.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessTargets.cmake;C:\git\zeal\cmake\FindSQLite.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\zeal\src\libs\util\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/zeal/src/libs/util/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/git/zeal -BC:/git/zeal --check-stamp-file C:/git/zeal/src/libs/util/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\FindWrapAtomic.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets-debug.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-debug.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessTargets.cmake;C:\git\zeal\cmake\FindSQLite.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\zeal\src\libs\util\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/zeal/src/libs/util/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/git/zeal -BC:/git/zeal --check-stamp-file C:/git/zeal/src/libs/util/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindThreads.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\FindWrapAtomic.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets-debug.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-debug.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake;C:\Qt\6.4.2\msvc2019_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessTargets.cmake;C:\git\zeal\cmake\FindSQLite.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\zeal\src\libs\util\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\git\zeal\src\libs\util\plist.cpp" />
+    <ClCompile Include="C:\git\zeal\src\libs\util\sqlitedatabase.cpp" />
+    <ClInclude Include="C:\git\zeal\src\libs\util\caseinsensitivemap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\git\zeal\ZERO_CHECK.vcxproj">
+      <Project>{38366CB9-185E-30D0-BAEB-3851B574A3A7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -40,7 +40,7 @@ Closes on query and is not usable with modern APIs. zealdocs#1339
 - Fixed scaling issues on HIDPI screens. 
 - Improved performance (1000x on simple queries without boolean logic).
 - **Java 18 API can be searched without crashing!**
-- <p align="center">
+<p align="center">
 ![image](https://user-images.githubusercontent.com/47398995/212193018-98681acf-efa3-4396-acd8-c63fb5c0f295.png)
 </p>
 Changelog:

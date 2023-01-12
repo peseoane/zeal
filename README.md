@@ -43,10 +43,11 @@ Closes on query and is not usable with modern APIs. zealdocs#1339
 <p align="center">
 ![image](https://user-images.githubusercontent.com/47398995/212193018-98681acf-efa3-4396-acd8-c63fb5c0f295.png)
 </p>
-Changelog:
 
-Migrated all code to be x86_64 compatible.
-Migrated to Win10 SDK 10.0.22621.
-Migrated to SQLite x64.
-Ported from Qt5 to Qt6.
-Obsolete qmake, everything has been ported to cmake.
+### Changelog:
+
+- Migrated all code to be x86_64 compatible.
+- Migrated to Win10 SDK 10.0.22621.
+- Migrated to SQLite x64.
+- Ported from Qt5 to Qt6.
+- Obsolete qmake, everything has been ported to cmake.

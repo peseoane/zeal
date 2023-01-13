@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.16.3)
 set(CMAKE_ERROR_DEPRECATED TRUE)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 # Añadir PATH para cmake que sepa donde tengo instalado QT6
-#set(CMAKE_PREFIX_PATH "C:/Qt/6.4.2/msvc2019_64")
+set(CMAKE_PREFIX_PATH "C:/Qt/6.4.2/msvc2019_64")
 # Esa libreria esta compilada en c:/vcpkg! como la añado?
 set(LibArchive_INCLUDE_DIR "C:/git/libarchive/include")
 set(LibArchive_LIBRARY "C:/git/libarchive/lib/archive.lib")

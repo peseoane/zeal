@@ -5,19 +5,21 @@
 
 **Versión release - No incluye símbolos de depuración**
 > IMPORTANTE > Requiere Microsoft Visual C++ 2022, más abajo está la descarga, es recomendable bajar el fichero con instalador, lo hace automáticamente
-<p align="center">
+<html><p align="center">
 <img width="540" alt="ICON" src="https://github.com/peseoane/zeal/blob/master/ICON.png?raw=true">
-</p>
+</p></html>
+
 ### Fallos solucionados: 
-- WebEngineSocket al generar una búsqueda bajo nuevos DOCSETS, hace un HALT general al programa. 
-- Se cierra al hacer el query y no es usable con APIs modernas. https://github.com/zealdocs/zeal/issues/1339 - Solucionados problemas de escalado en pantallas HIDPI. 
+- WebEngineSocket al generar una búsqueda bajo nuevos DOCSETS, hace un HALT general al programa.
+- Se cierra al hacer el query y no es usable con APIs modernas. https://github.com/zealdocs/zeal/issues/1339 
+- Solucionados problemas de escalado en pantallas HIDPI. 
 - Mejorado rendimiento (1000 veces en consultas simples sin lógica booleana).
 
 **¡Se puede buscar en la API de Java 18 sin que se cuelge!**
-
+<html>
 <p align="center">
 <img width="540" alt="Screenshoot of Zeal not crashing" src="https://github.com/peseoane/zeal/blob/master/foto2.png?raw=true">
-</p>
+</p></html>
 
 ### Changelog: 
 - Se ha migrado todo el código para ser compatible con x86_64. 
@@ -44,9 +46,10 @@ Closes on query and is not usable with modern APIs. zealdocs#1339
 - Fixed scaling issues on HIDPI screens. 
 - Improved performance (1000x on simple queries without boolean logic).
 - **Java 18 API can be searched without crashing!**
-- 
+<html>
 <p align="center">
 <img width="540" alt="Screenshoot of Zeal not crashing" src="https://github.com/peseoane/zeal/blob/master/foto2.png?raw=true"></p>
+</html>
 
 ### Changelog:
 

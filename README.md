@@ -14,8 +14,9 @@
 - Mejorado rendimiento (1000 veces en consultas simples sin lógica booleana).
 
 **¡Se puede buscar en la API de Java 18 sin que se cuelge!**
+
 <p align="center">
-![Screenshoot of Zeal not crashing](https://github.com/peseoane/zeal/blob/master/foto2.png?raw=true)
+<img width="540" alt="Screenshoot of Zeal not crashing" src="https://github.com/peseoane/zeal/blob/master/foto2.png?raw=true">
 </p>
 
 ### Changelog: 
@@ -43,9 +44,10 @@ Closes on query and is not usable with modern APIs. zealdocs#1339
 - Fixed scaling issues on HIDPI screens. 
 - Improved performance (1000x on simple queries without boolean logic).
 - **Java 18 API can be searched without crashing!**
+- 
 <p align="center">
-![Screenshoot of Zeal not crashing](https://github.com/peseoane/zeal/blob/master/foto2.png?raw=true)
-</p>
+<img width="540" alt="Screenshoot of Zeal not crashing" src="https://github.com/peseoane/zeal/blob/master/foto2.png?raw=true"></p>
+
 ### Changelog:
 
 - Migrated all code to be x86_64 compatible.

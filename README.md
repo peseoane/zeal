@@ -25,6 +25,9 @@
 - Se ha portado de Qt5 a Qt6. 
 - Obsoleto qmake, se ha portado todo a cmake. 
 
+## Compille Guide
+[](https://github.com/peseoane/zeal/wiki/How-to-build-with-QT6-and-MSVC-2022)
+
 ## English UK
 
 > This fork fixes some bugs in the original Zeal Docs that prevented certain Docsets from searching because the program would crash.
@@ -41,8 +44,7 @@ Closes on query and is not usable with modern APIs. zealdocs#1339
 - Improved performance (1000x on simple queries without boolean logic).
 - **Java 18 API can be searched without crashing!**
 <p align="center">
-![image](https://user-images.githubusercontent.com/47398995/212193018-98681acf-efa3-4396-acd8-c63fb5c0f295.png)
-</p>
+![image](https://user-images.githubusercontent.com/47398995/212247195-c1534884-3587-48f0-b6a3-096a47a0862d.png)</p>
 
 ### Changelog:
 

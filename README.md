@@ -29,7 +29,7 @@
 - Obsoleto qmake, se ha portado todo a cmake. 
 
 ## Compille Guide
-[](https://github.com/peseoane/zeal/wiki/How-to-build-with-QT6-and-MSVC-2022)
+[Go to the wiki!](https://github.com/peseoane/zeal/wiki/How-to-build-with-QT6-and-MSVC-2022)
 
 ## English UK
 

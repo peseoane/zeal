@@ -6,7 +6,7 @@
 **Versión release - No incluye símbolos de depuración**
 > IMPORTANTE > Requiere Microsoft Visual C++ 2022, más abajo está la descarga, es recomendable bajar el fichero con instalador, lo hace automáticamente
 <p align="center">
-<img width="540" alt="ICON" src="https://user-images.githubusercontent.com/47398995/212192958-0e41ce53-1cea-4a48-b5e4-c5c416ff6010.png">
+<img width="540" alt="ICON" src="https://github.com/peseoane/zeal/blob/master/ICON.png?raw=true">
 </p>
 ### Fallos solucionados: 
 - WebEngineSocket al generar una búsqueda bajo nuevos DOCSETS, hace un HALT general al programa. 
@@ -15,7 +15,7 @@
 
 **¡Se puede buscar en la API de Java 18 sin que se cuelge!**
 <p align="center">
-![image](https://user-images.githubusercontent.com/47398995/212193018-98681acf-efa3-4396-acd8-c63fb5c0f295.png)
+![Screenshoot of Zeal not crashing](https://github.com/peseoane/zeal/blob/master/foto2.png?raw=true)
 </p>
 
 ### Changelog: 
@@ -44,8 +44,8 @@ Closes on query and is not usable with modern APIs. zealdocs#1339
 - Improved performance (1000x on simple queries without boolean logic).
 - **Java 18 API can be searched without crashing!**
 <p align="center">
-![image](https://user-images.githubusercontent.com/47398995/212247195-c1534884-3587-48f0-b6a3-096a47a0862d.png)</p>
-
+![Screenshoot of Zeal not crashing](https://github.com/peseoane/zeal/blob/master/foto2.png?raw=true)
+</p>
 ### Changelog:
 
 - Migrated all code to be x86_64 compatible.
